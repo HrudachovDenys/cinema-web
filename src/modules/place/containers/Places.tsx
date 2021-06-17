@@ -55,6 +55,7 @@ export const Places: React.FC<PlacesProps> = ({ movieId }: PlacesProps) => {
 
   const dispatch = useDispatch();
 
+  // Fetch places by movie id.
   useEffect(() => {
     dispatch(placeActions.fetchPlacesByMovieId(movieId));
   }, [dispatch, movieId]);

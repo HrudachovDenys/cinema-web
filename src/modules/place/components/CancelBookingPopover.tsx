@@ -28,7 +28,7 @@ export const CancelBookingPopover: React.FC<CancelBookingPopoverProps> = ({
       <Content>
         <span>Booked {username}</span>
         <Button danger type="primary" onClick={cancelBooking}>
-          Cancel bokking
+          Cancel booking
         </Button>
       </Content>
     }
